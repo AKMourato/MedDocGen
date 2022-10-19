@@ -1,4 +1,4 @@
-## JSONGen v1.0.1
+## MedDocGen v1.0.1
 
 Brief description: (ToBe completed)
 
