@@ -1,0 +1,22 @@
+azure-storage:
+  URI: <storage-account>.blob.core.windows.net/
+
+default-server-paths:
+  datadir: /home/dev/datadrive
+  modelsdir: /home/database/v-patients
+  database-dl: /home/database/database-dl.xlsx
+
+sharepoint-download-credentials:
+  url: 
+  location: 
+  client_id: 
+  client_secret: 
+
+tests:
+  test_data_dir: ./tests/test_data
+  compare_jsons_dir: ./tests/compare_jsons
+  test_dicomjson_dir: ./tests/test_dicom_jsons
+  test_modeljson_dir: ./tests/test_model_jsons
+  model_json_file: model_collection.json
+  patient_json_file: patient_collection.json
+  imaging_json_file: imaging_collection.json
